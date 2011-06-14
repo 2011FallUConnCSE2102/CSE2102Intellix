@@ -1,0 +1,37 @@
+Manifest-Version: 1.0
+Built-By: gnodet
+Created-By: Apache Maven Bundle Plugin
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Import-Package: antlr;version="3.0.1",antlr.ASdebug;version="3.0.1",an
+ tlr.actions.cpp;version="3.0.1",antlr.actions.csharp;version="3.0.1",
+ antlr.actions.java;version="3.0.1",antlr.actions.python;version="3.0.
+ 1",antlr.build;version="3.0.1",antlr.collections;version="3.0.1",antl
+ r.collections.impl;version="3.0.1",antlr.debug;version="3.0.1",antlr.
+ debug.misc;version="3.0.1",antlr.preprocessor;version="3.0.1",javax.s
+ wing;resolution:=optional,javax.swing.event;resolution:=optional,java
+ x.swing.tree;resolution:=optional
+Bnd-LastModified: 1220538409456
+Export-Package: antlr.actions.java;uses:="antlr.collections.impl,antlr
+ ";version="3.0.1",antlr.actions.csharp;uses:="antlr.collections.impl,
+ antlr";version="3.0.1",antlr.debug;uses:="antlr.collections,antlr.col
+ lections.impl,antlr";version="3.0.1",antlr.collections;uses:=antlr;ve
+ rsion="3.0.1",antlr.actions.python;uses:="antlr.collections.impl,antl
+ r";version="3.0.1",antlr.build;uses:=antlr;version="3.0.1",antlr.debu
+ g.misc;uses:="javax.swing.event,javax.swing.tree,antlr.collections,ja
+ vax.swing,antlr";version="3.0.1",antlr.actions.cpp;uses:="antlr.colle
+ ctions.impl,antlr";version="3.0.1",antlr.preprocessor;uses:="antlr.co
+ llections.impl,antlr";version="3.0.1",antlr.collections.impl;uses:="a
+ ntlr.collections,antlr";version="3.0.1",antlr;uses:="antlr.actions.ja
+ va,antlr.actions.csharp,antlr.debug,antlr.actions.python,antlr.collec
+ tions.impl,antlr.ASdebug,antlr.collections,antlr.actions.cpp,antlr.pr
+ eprocessor";version="3.0.1",antlr.ASdebug;uses:=antlr;version="3.0.1"
+Bundle-Version: 3.0.1.1
+Bundle-Name: Apache ServiceMix Bundles: antlr-3.0.1
+Bundle-Description: This bundle simply wraps antlr-3.0.1.jar.
+Build-Jdk: 1.5.0
+Bundle-DocURL: http://www.apache.org/
+Bundle-ManifestVersion: 2
+Bundle-Vendor: Apache Software Foundation
+Bundle-SymbolicName: org.apache.servicemix.bundles.antlr
+Tool: Bnd-0.0.255
+
